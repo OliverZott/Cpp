@@ -11,8 +11,8 @@
 #ifndef FUNCTONBODYANDVECTORS_H_
 #define FUNCTONBODYANDVECTORS_H_
 
-#include <iostream>
-#include <vector>
+//#include <iostream>
+//#include <vector>
 
 
 

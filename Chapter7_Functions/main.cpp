@@ -1,4 +1,4 @@
-/*
+/**
  * Functions_MAIN.cpp
  *
  *  Created on: 09.07.2019
@@ -44,12 +44,12 @@ int main() {
 
     std::cout << "Size of Prims-Vector: " <<  prims.size() << std::endl;
 
-    std::cout << "Widergabe mittels Iteratoren: " << "\n";
-    for (auto i = prims.begin(); i != prims.end(); ++i)                        // Widerabe mit ITERAOREN (better for containers!)  S.160
+    std::cout << "Output with Iteratore: " << "\n";
+    for (auto i = prims.begin(); i != prims.end(); ++i)                        // output with ITERAORE (better for containers!)  S.160
         std::cout << *i << ' ';
     std::cout << std::endl << std::endl;
 
-    std::cout << "Widergabe mittels Bereichs-Schleife: " << "\n";
+    std::cout << "Output with range-based-loop: " << "\n";
     for ( int index : prims)
         std::cout << index << ' ';
     std::cout << std::endl<< std::endl;

@@ -25,11 +25,11 @@ std::vector<int>  prims = {2}; // @suppress("Invalid arguments")
 bool testIfPrim ( int n ) {
     for ( int teil : prims ) {          	// range based loop, uses global vector variable
         if ( teil*teil > n ) {           	// access to parameter
-            std::cout << "prim: " <<  n << std::endl;
+            //std::cout << "prim: " <<  n << std::endl;
             return true;
         }
         if ( n%teil == 0 ) {
-            std::cout << "not prim: " << n << std::endl;
+            //std::cout << "not prim: " << n << std::endl;
             return false;
         }
     }
@@ -41,7 +41,7 @@ bool testIfPrim ( int n ) {
 void calcPrimsTo ( int ende ) {
     for ( int n = 3; n < ende; n = n+2 ) {
         if ( testIfPrim(n) ) {
-            prims.push_back(n);
+            prims.push_back(n);             // push_back
         }
     }
     // return

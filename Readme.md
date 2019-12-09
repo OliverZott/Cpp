@@ -1,5 +1,5 @@
-* C++ repository 
+# C++ repository 
 
-** Use:
+## Use:
 - learning purposes
 - code example pool 
