@@ -37,6 +37,7 @@ void eingabe2(                              // call by reference
 
     std::cout << "Your Name: " << name << std::endl;
 
+
     // Iterator used to get
     for ( auto i = monthlyIncome.begin(); i != monthlyIncome.end(); ++i)
     {
@@ -50,6 +51,6 @@ void eingabe2(                              // call by reference
         std::cout << "month: " << m + 1 << ", income: " << monthlyIncome[m] << std::endl;
     }
 
-    std::cout << std::fixed << std::setprecision(6) << 17.23 << std::endl;       // manipulators for formating
+    std::cout << std::fixed << std::setprecision(6) << 17.23 << std::endl;       // manipulators for formatting
 
 }
