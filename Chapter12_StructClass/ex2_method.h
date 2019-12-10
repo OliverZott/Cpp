@@ -3,17 +3,16 @@
 
 #include <string>
 
-using std::string;
-
 
 struct Person2
 {
-    string name_;
+    std::string name_;
     int alter_;
-    string ort_;
+    std::string ort_;
 
     void drucke();
-    string gruss();
+    void drucke_soph(std::ostream& os);
+    std::string gruss();
 };
 
 

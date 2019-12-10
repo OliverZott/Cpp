@@ -6,16 +6,16 @@
 using std::string;
 
 
-struct Person
+struct Person0
 {
     string name_;
     int alter_;
     string ort_;
 };
 
-void drucke(Person p);
+void drucke(Person0 p);
 
-Person erzeuge(string name, int alter, string ort);
+Person0 erzeuge(string name, int alter, string ort);
 
 
 #endif // EX1_STRUCT_H_INCLUDED
