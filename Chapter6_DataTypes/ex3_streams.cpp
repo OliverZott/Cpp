@@ -1,8 +1,9 @@
 /**
  * Streams Example
- * (page 144)
- *      - streams
- *      - array / vector
+ * (page 1)
+ *
+ *      - streams(cout, cerr, cin)
+ *      - array
  *      - ITERATOR
  *
  *
@@ -21,15 +22,15 @@ void eingabe2(                              // call by reference
         std::array<int, 4> &monthlyIncome)
 {
     std::cout << "Name: ";
-    std::getline(std::cin, name);       // getline to read with whitespaces!
+    std::getline(std::cin, name);           // read with white-spaces!
     if (name.length() == 0)
     {
         std::cout << "Empty name-string!\n";
         exit(1);
     }
 
-    // enter montly income to int-array
-    for (int m = 0; m<4; ++m)
+    // enter monthly income to integer-array
+    for (int m = 0; m < 4; ++m)
     {
         std::cout << "income of month " << m+1 << ": ";
         std::cin >> monthlyIncome[m];
@@ -51,6 +52,8 @@ void eingabe2(                              // call by reference
         std::cout << "month: " << m + 1 << ", income: " << monthlyIncome[m] << std::endl;
     }
 
+
+    // manipulators (page 154)
     std::cout << std::fixed << std::setprecision(6) << 17.23 << std::endl;       // manipulators for formatting
 
 }
