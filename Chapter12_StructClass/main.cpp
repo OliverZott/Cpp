@@ -50,12 +50,16 @@ int main()
     */
 
     // ex4: constructor
-    Person_const Olllgu {};
-    Person_const Lenzwu {"Leni", 32, "Mutters"};
-    Person_const Sigi {"Sigi", 1};
+    Person_const Olllgu {};     // constructor without parameters
     cout << Olllgu;
     cout << Olllgu.name_ << std::endl;
+    Olllgu.name_ = "Olliii";
+    cout << Olllgu;
+
+    Person_const Lenzwu {"Leni", 32, "Mutters"};
+    Person_const Sigi {"Sigi", 1};
     cout << Lenzwu;
+    cout << Sigi;
 
 
     return 0;
