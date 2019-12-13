@@ -1,5 +1,5 @@
 /**
- * FunctonbodyAndVectors.cpp
+ * Chapter 7.6
  *
  * - Function Call
  * - Vectors (unsing, printing)
@@ -17,7 +17,6 @@
 
 #include <iostream>
 #include <vector>
-#include "FunctonbodyAndVectors.h"
 
 std::vector<int>  prims = {2}; // @suppress("Invalid arguments")
 
