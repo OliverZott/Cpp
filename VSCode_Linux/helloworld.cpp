@@ -29,7 +29,7 @@
 
 using namespace std;
 
-
+  
 int main()  
 {
     vector<string> msg {"Hello", "C++", "World", "fom", "VS Code", "and the c++ extension!"};
